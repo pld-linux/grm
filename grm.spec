@@ -9,6 +9,7 @@ Group:		Applications/Text
 # from http://akpublic.research.att.com/cgi-bin/access.cgi/as/vt/ext-software/www-ne-license.cgi?form.grm.binary
 Source0:	%{name}-%{fversion}.linux.i386.tar.gz
 URL:		http://www.research.att.com/sw/tools/grm/
+NoSource:	0
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
