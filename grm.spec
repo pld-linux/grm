@@ -4,17 +4,21 @@ Summary(pl):	Biblioteka gramatyk
 Name:		grm
 Version:	4.0
 Release:	1
+Group:		Applications/Text
 License:	Free for educational use, non-distributable
 # from http://akpublic.research.att.com/cgi-bin/access.cgi/as/vt/ext-software/www-ne-license.cgi?form.grm.binary
 Source0:	%{name}-%{fversion}.linux.i386.tar.gz
-Group:		Applications/Text
 URL:		http://www.research.att.com/sw/tools/grm/
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The GRM Library (Grammar Library) is a set of general-purpose software tools
-for constructing, modifying, and compiling grammars. 
+The GRM Library (Grammar Library) is a set of general-purpose software
+tools for constructing, modifying, and compiling grammars. 
+
+%description -l pl
+Biblioteka GRM (Grammar Library) to zbiór narzêdzi ogólnego
+przeznaczenia do konstruowania, modyfikowania i kompilowania gramatyk.
 
 %prep
 %setup -q
