@@ -1,6 +1,6 @@
 %define		fversion	%(echo %{version} |tr . _)
 Summary:	Grammar Library
-Summary(pl):	Biblioteka gramatyk
+Summary(pl.UTF-8):   Biblioteka gramatyk
 Name:		grm
 Version:	4.0
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The GRM Library (Grammar Library) is a set of general-purpose software
 tools for constructing, modifying, and compiling grammars. 
 
-%description -l pl
-Biblioteka GRM (Grammar Library) to zbiór narzêdzi ogólnego
+%description -l pl.UTF-8
+Biblioteka GRM (Grammar Library) to zbiÃ³r narzÄ™dzi ogÃ³lnego
 przeznaczenia do konstruowania, modyfikowania i kompilowania gramatyk.
 
 %prep
