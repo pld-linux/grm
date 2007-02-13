@@ -1,6 +1,6 @@
 %define		fversion	%(echo %{version} |tr . _)
 Summary:	Grammar Library
-Summary(pl.UTF-8):   Biblioteka gramatyk
+Summary(pl.UTF-8):	Biblioteka gramatyk
 Name:		grm
 Version:	4.0
 Release:	1
